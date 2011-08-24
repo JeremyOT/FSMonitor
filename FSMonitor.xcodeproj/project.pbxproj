@@ -1,0 +1,240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		247BE0E21404412A0061EC70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247BE0E11404412A0061EC70 /* Foundation.framework */; };
+		247BE0E51404412A0061EC70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 247BE0E41404412A0061EC70 /* main.m */; };
+		247BE0F11404414B0061EC70 /* FileWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 247BE0F01404414B0061EC70 /* FileWatcher.m */; };
+		247BE0F3140442DC0061EC70 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247BE0F2140442DC0061EC70 /* CoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		247BE0DB1404412A0061EC70 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		247BE0DD1404412A0061EC70 /* FSMonitor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FSMonitor; sourceTree = BUILT_PRODUCTS_DIR; };
+		247BE0E11404412A0061EC70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		247BE0E41404412A0061EC70 /* main.m */ = {isa = PBXFileReference; path = main.m; sourceTree = "<group>"; };
+		247BE0E71404412A0061EC70 /* FSMonitor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FSMonitor-Prefix.pch"; sourceTree = "<group>"; };
+		247BE0EF1404414B0061EC70 /* FileWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileWatcher.h; sourceTree = "<group>"; };
+		247BE0F01404414B0061EC70 /* FileWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileWatcher.m; sourceTree = "<group>"; };
+		247BE0F2140442DC0061EC70 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		247BE0DA1404412A0061EC70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247BE0F3140442DC0061EC70 /* CoreServices.framework in Frameworks */,
+				247BE0E21404412A0061EC70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		247BE0D21404412A0061EC70 = {
+			isa = PBXGroup;
+			children = (
+				247BE0E31404412A0061EC70 /* FSMonitor */,
+				247BE0E01404412A0061EC70 /* Frameworks */,
+				247BE0DE1404412A0061EC70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		247BE0DE1404412A0061EC70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				247BE0DD1404412A0061EC70 /* FSMonitor */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		247BE0E01404412A0061EC70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				247BE0F2140442DC0061EC70 /* CoreServices.framework */,
+				247BE0E11404412A0061EC70 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		247BE0E31404412A0061EC70 /* FSMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				247BE0E41404412A0061EC70 /* main.m */,
+				247BE0E61404412A0061EC70 /* Supporting Files */,
+				247BE0EF1404414B0061EC70 /* FileWatcher.h */,
+				247BE0F01404414B0061EC70 /* FileWatcher.m */,
+			);
+			path = FSMonitor;
+			sourceTree = "<group>";
+		};
+		247BE0E61404412A0061EC70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				247BE0E71404412A0061EC70 /* FSMonitor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		247BE0DC1404412A0061EC70 /* FSMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247BE0EC1404412A0061EC70 /* Build configuration list for PBXNativeTarget "FSMonitor" */;
+			buildPhases = (
+				247BE0D91404412A0061EC70 /* Sources */,
+				247BE0DA1404412A0061EC70 /* Frameworks */,
+				247BE0DB1404412A0061EC70 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSMonitor;
+			productName = FSMonitor;
+			productReference = 247BE0DD1404412A0061EC70 /* FSMonitor */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		247BE0D41404412A0061EC70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = JOT;
+			};
+			buildConfigurationList = 247BE0D71404412A0061EC70 /* Build configuration list for PBXProject "FSMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 247BE0D21404412A0061EC70;
+			productRefGroup = 247BE0DE1404412A0061EC70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				247BE0DC1404412A0061EC70 /* FSMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		247BE0D91404412A0061EC70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247BE0E51404412A0061EC70 /* main.m in Sources */,
+				247BE0F11404414B0061EC70 /* FileWatcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		247BE0EA1404412A0061EC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		247BE0EB1404412A0061EC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		247BE0ED1404412A0061EC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSMonitor/FSMonitor-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		247BE0EE1404412A0061EC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FSMonitor/FSMonitor-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		247BE0D71404412A0061EC70 /* Build configuration list for PBXProject "FSMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247BE0EA1404412A0061EC70 /* Debug */,
+				247BE0EB1404412A0061EC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		247BE0EC1404412A0061EC70 /* Build configuration list for PBXNativeTarget "FSMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247BE0ED1404412A0061EC70 /* Debug */,
+				247BE0EE1404412A0061EC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 247BE0D41404412A0061EC70 /* Project object */;
+}
