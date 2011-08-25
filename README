@@ -1,0 +1,8 @@
+FSMonitor is a simple command line tool that will monitor a set of directories for
+file system changes and print affected paths to STDOUT as changes occur.
+
+Usage:
+
+FSMonitor [directory ...]
+
+If no directories are specified '/' is used instead.
